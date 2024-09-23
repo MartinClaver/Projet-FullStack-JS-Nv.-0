@@ -1,10 +1,10 @@
 # Projet-FullStack-JS-Nv.-0
 
-Projet de Todo List : 
-  -Frontend : Vue JS
-  -Backend : Node JS avec Express
-  -DB : Mongo DB
+<b>Projet de Todo List :</b> 
+  <br />-Frontend : Vue JS
+  <br/>-Backend : Node JS avec Express
+  <br/>-DB : Mongo DB
 
-Commandes :
- -Frontend :  npm run dev
- -Backend : node app.mjs
+**Commandes :**
+ <br/>-Frontend :  npm run dev
+ <br/>-Backend : node app.mjs
