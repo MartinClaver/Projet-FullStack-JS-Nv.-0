@@ -1,19 +1,16 @@
 <script setup>
 import { ref } from 'vue';
 
-// Déclaration des variables réactives avec ref()
 const name = ref('');
 const creator = ref('');
 const description = ref('');
 
-// Fonction pour réinitialiser le formulaire
 const resetForm = () => {
   name.value = '';
   creator.value = '';
   description.value = '';
 };
 
-// Fonction pour soumettre la tâche
 const submitTask = async () => {
   if (!name.value || !creator.value || !description.value) {
     alert('Tous les champs sont obligatoires');

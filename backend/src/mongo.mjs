@@ -22,6 +22,10 @@ export function postTask(collection, data){
   return collection.insertOne(data)
 }
 
+export function deleteAllTasks(collection) {
+  return collection.deleteMany({})
+}
+
 export function main(dbName, collectionName) {
   connectToMongo(dbName, collectionName)
     .then(collection => {
